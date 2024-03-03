@@ -1,21 +1,34 @@
-/*adding a background color to the website*/
+/* Set background color for the entire webpage */
 body {
-  background-color: #FFFBE0;
+  background-color: #FFFBE0; /* Cream color */
 }
 
-nav a:hover{
-  background: #fff;
+/* Title styling */
+.title {
+  border: 2px solid black;
+  text-align: center;
+  background-color: #FFD700; /* Yellow color */
+  color: black; /* Black text */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  text-transform: uppercase; /* All caps */
+  font-family: "Roboto", sans-serif; /* Roboto Sans font */
+  width: fit-content; /* Set width to fit the content */
+  margin: 0 auto; /* Center horizontally */
 }
 
-/*new code*/
 /* Set background color for the cat container */
 #cat-container {
-  background-color: #3EA66B;
+  background-color: #FFFBE0; /* Green color */
   padding: 20px; /* Add padding for spacing */
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to new line */
+  justify-content: space-around; /* Center items horizontally */
 }
 
 /* Style for each cat card */
 .cat-card {
+  background-color: #3EA66B; /* Green color */
   width: 200px;
   margin: 10px;
   padding: 10px;
@@ -33,6 +46,9 @@ nav a:hover{
 /* Style for the cat name */
 .cat-name {
   text-align: center; /* Center the cat names */
-  font-family: "Coco Gothic", sans-serif; /* Use Coco Gothic font */
+  font-family: "Roboto", sans-serif; /* Use Roboto Sans font */
   margin-top: 10px; /* Add margin for spacing */
 }
+
+nav a:hover{
+  background: #fff;
