@@ -18,7 +18,7 @@ body {
 }
 
 /* Set background color for the cat container */
-#cat-container-top, #cat-container-bottom {
+#cat-container {
   background-color: #FFFBE0; /* Green color */
   padding: 20px; /* Add padding for spacing */
   display: flex; /* Use flexbox */
@@ -50,14 +50,6 @@ body {
   font-family: "Roboto", sans-serif; /* Use Roboto Sans font */
   margin-top: 10px; /* Add margin for spacing */
 }
-/* Adjust layout for smaller screens */
-@media (max-width: 768px) {
-  #cat-container {
-    flex-direction: column; /* Change to column layout for smaller screens */
-  }
-  .cat-card {
-    width: calc(33.33% - 20px); /* 33.33% width for each cat card with spacing */
-  }
 
 nav a:hover{
   background: #fff;
