@@ -1,20 +1,38 @@
-/*styling for the cat container*/
-#cat-container{
-    display: flex;
-    flex-wrap: wrap;
+/*adding a background color to the website*/
+body {
+  background-color: #FFFBE0;
 }
 
-/*styling for each of the cat cards*/
-.cat-card{
-    width: 200px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+nav a:hover{
+  background: #fff;
 }
 
-/*styling for the cat image*/
-.cat-image{
-    max-width: 100%;
-    height: auto;
+/*new code*/
+/* Set background color for the cat container */
+#cat-container {
+  background-color: #3EA66B;
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Style for each cat card */
+.cat-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black; /* Add black border */
+  border-radius: 5px;
+}
+
+/* Style for the cat image */
+.cat-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Add border radius to match card */
+}
+
+/* Style for the cat name */
+.cat-name {
+  text-align: center; /* Center the cat names */
+  font-family: "Coco Gothic", sans-serif; /* Use Coco Gothic font */
+  margin-top: 10px; /* Add margin for spacing */
 }
