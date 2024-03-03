@@ -1,0 +1,20 @@
+/*styling for the cat container*/
+#cat-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*styling for each of the cat cards*/
+.cat-card{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*styling for the cat image*/
+.cat-image{
+    max-width: 100%;
+    height: auto;
+}
